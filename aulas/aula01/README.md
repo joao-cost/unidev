@@ -22,28 +22,42 @@ Todo algoritmo segue este ciclo básico:
 ---
 
 ## 🗺️ Fluxograma
-É a representação gráfica de um algoritmo.
-*   **Elipse:** Início/Fim do programa.
-*   **Paralelogramo:** Entrada ou saída de dados.
-*   **Retângulo:** Processamento de dados.
-*   **Losango:** Decisão ou teste condicional.
+É a representação gráfica de um algoritmo. Abaixo estão os principais símbolos utilizados:
+
+![Símbolos do Fluxograma](img/simbolos_fluxograma.png)
+
+*   **Elipse (Início/Fim):** Indica onde o algoritmo começa e termina.
+*   **Paralelogramo (Entrada/Saída):** Representa a leitura de dados ou a exibição de resultados.
+*   **Retângulo (Processamento):** Indica cálculos ou atribuições de valores.
+*   **Losango (Decisão):** Uma pergunta que altera o fluxo do programa (Sim ou Não).
+
+### Exemplo: Atravessar a Rua
+Veja como desenharíamos a lógica para atravessar uma rua com segurança:
+
+![Exemplo de Fluxograma - Atravessar a Rua](img/fluxograma_rua.png)
 
 ---
 
-## 📜 Introdução ao Portugol
-Portugol é uma "linguagem" (pseudocódigo) usada para ensinar lógica usando termos em português. Facilita o aprendizado antes de partir para a sintaxe rígida de linguagens reais.
+## 📜 Portugol e Portugol WebStudio
+O Portugol é uma "linguagem" (pseudocódigo) usada para ensinar lógica usando termos em português. Facilita o aprendizado antes de partir para a sintaxe rígida de linguagens reais.
+
+### Onde praticar?
+Recomendamos o **Portugol WebStudio**, que não precisa instalar nada!
+👉 **[Acesse o Portugol WebStudio aqui](https://portugol.devpost.com.br/)** *(ou busque por Portugol WebStudio no Google)*
 
 ### Exemplo: Primeiro Algoritmo em Portugol
 ```portugol
-inicio
+programa {
+  funcao inicio() {
     escreva("Olá, Desenvolvedor!")
-fere
+  }
+}
 ```
 
 ---
 
 ## 💻 Tradução para Linguagem C
-Vamos ver como o mesmo código ficaria em C:
+Agora que entendemos a lógica, veja como o mesmo código ficaria em C:
 
 ```c
 #include <stdio.h>
@@ -57,6 +71,6 @@ int main() {
 ---
 
 ## 🏋️ Exercício da Aula
-1. Escreva um algoritmo (em Portugol ou fluxograma) que descreva o processo de "Atravessar uma Rua". Pense na entrada (olhar para os lados), no processamento (avaliar se vem carro) e na saída (atravessar ou esperar).
-2. Configure seu ambiente de desenvolvimento C (DevC++, VS Code ou compilador online como GDB Online).
-3. Execute seu primeiro "Olá Mundo!" em C.
+1. **Lógica no Papel:** Tente desenhar um fluxograma para o processo de "Fazer um Café". Não esqueça da decisão: "O café está doce o suficiente?".
+2. **Portugol WebStudio:** Entre no site e tente fazer o código acima que escreve o "Olá".
+3. **Ambiente C:** Se já configurou seu [Dev-C++](../../programas/README.md), execute seu primeiro "Olá Mundo!" em C.

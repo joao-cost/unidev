@@ -30,7 +30,7 @@ Se você quer aprender, trocar conhecimentos e crescer na área de desenvolvimen
 
 ### 🎓 Comece por aqui
 - **[Apresentação da Célula e Programa FOCCO](aulas/apresentacao/README.md)**
-- **[Configuração do Ambiente (Dev-C++ Portable)](aulas/ambiente/README.md)**
+- **[Configuração do Ambiente (Dev-C++ Portable)](programas/README.md)**
 
 ---
 
