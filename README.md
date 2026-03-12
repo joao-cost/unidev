@@ -7,7 +7,7 @@
 ---
 
 ## 📖 Sobre a Célula
-A **UNIDEV** é uma célula de estudos dedicada ao aprendizado colaborativo de **programação, lógica e fundamentos de desenvolvimento**. Nosso objetivo é formar uma comunidade sólida de alunos que aprendem, praticam e evoluem juntos, preparando-se para os desafios do mercado de tecnologia.
+A **UNIDEV** é uma célula de estudos voltada ao aprendizado de **programação, lógica e fundamentos de desenvolvimento**, formando uma comunidade sólida de alunos que aprendem, praticam e evoluem juntos.
 
 ## 👤 Articulador
 * **João Vitor Costa**
@@ -35,16 +35,16 @@ Se você quer aprender, trocar conhecimentos e crescer na área de desenvolvimen
 ---
 
 ### 🛠️ Tópicos Abordados
-- Lógica de Programação
-- Algoritmos e Estrutura de Dados
-- Fundamentos de Desenvolvimento (C/Web)
+- Lógica de Programação e Algoritmos
+- Estrutura de Dados e Fundamentos
+- Programação Web e Software
 - Pair Programming e Projetos Práticos
 
 ---
 
-### 🛤️ Trilha de Aprendizado
-Para planejar seus estudos, acesse o cronograma completo da nossa trilha:
-👉 **[Trilha de Programação - Fundamentos em C](TRILHA_C.md)**
+### 🛤️ Trilhas de Aprendizado
+Para planejar seus estudos, confira nossas trilhas disponíveis:
+👉 **[Trilha 01: Fundamentos com Linguagem C](TRILHA_C.md)**
 
 ---
 

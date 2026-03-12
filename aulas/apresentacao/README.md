@@ -29,10 +29,10 @@ Para que nossa célula funcione com excelência, seguimos estes cinco princípio
 ---
 
 ### 🤝 Nossa Célula: UNIDEV
-A **UNIDEV** nasceu com o objetivo de unir desenvolvedores em busca de uma base sólida.
+A **UNIDEV** nasceu com o objetivo de unir desenvolvedores em busca de uma evolução conjunta.
 *   **Articulador:** João Vitor Costa.
-*   **Foco:** Lógica, Algoritmos e Programação em C.
-*   **Metodologia:** Aprendizado na prática e apoio mútuo.
+*   **Foco:** Programação, Lógica e Fundamentos de Desenvolvimento.
+*   **Metodologia:** Aprendizado cooperativo, prática e apoio mútuo.
 
 ---
 
