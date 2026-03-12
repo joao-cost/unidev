@@ -24,7 +24,7 @@ Se você quer aprender, trocar conhecimentos e crescer na área de desenvolvimen
 
 > [!TIP]
 > **Entre no nosso grupo do WhatsApp** para ficar por dentro de todos os avisos, materiais de estudo e discussões:  
-> [👉 Clique aqui para entrar no grupo](https://chat.whatsapp.com/seu-link-aqui) *(Substitua pelo link real)*
+> [👉 Clique aqui para entrar no grupo](https://chat.whatsapp.com/LVwI3HiMFCT2e9khOhGhqY)
 
 ---
 
