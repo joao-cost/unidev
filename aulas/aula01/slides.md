@@ -142,7 +142,9 @@ programa {
 
 ## 🏋️ Sua vez (Portugol)
 
-No seu computador/site, tente implementar a lógica de **"Fazer um Café"** ou **"Calcular a Soma de dois números"** utilizando o que aprendeu.
+Agora é com você! No **Portugol WebStudio**:
+1. Implemente o código de **"Fazer um Café"** seguindo a lógica que discutimos no fluxograma.
+2. **Desafio Extra:** Crie um programa que peça dois números ao usuário e mostre a **Soma** deles.
 
 <br><br>
 
@@ -204,12 +206,14 @@ int main() {
 
 <br><br>
 
-## 🏁 Desafio Aula 1 (C)
+## 🏋️ Sua vez (Linguagem C)
 
-Crie no seu [Dev-C++](../../programas/config_ambiente.md) um programa que:
-1. Peça dois números.
-2. Calcule a soma.
-3. Exiba o resultado.
+Agora no seu [Dev-C++](../../programas/config_ambiente.md), vamos repetir os passos:
+1. Implemente o código de **"Fazer um Café"** (utilize `printf` para os passos e um `if` para perguntar se quer açúcar).
+2. **Desafio Final:** Crie um programa que:
+   - Peça dois números inteiros.
+   - Calcule a soma.
+   - Exiba: "O resultado da soma é: [RESULTADO]".
 
 <br><br>
 
