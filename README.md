@@ -31,8 +31,14 @@ Se você quer aprender, trocar conhecimentos e crescer na área de desenvolvimen
 ### 🛠️ Tópicos Abordados
 - Lógica de Programação
 - Algoritmos e Estrutura de Dados
-- Fundamentos de Desenvolvimento Web/Software
+- Fundamentos de Desenvolvimento (C/Web)
 - Pair Programming e Projetos Práticos
+
+---
+
+### 🛤️ Trilha de Aprendizado
+Para planejar seus estudos, acesse o cronograma completo da nossa trilha:
+👉 **[Trilha de Programação - Fundamentos em C](TRILHA_C.md)**
 
 ---
 
