@@ -8,159 +8,51 @@ Carga sugerida: **8 encontros**
 
 ---
 
-# [Aula 1 — Introdução à Programação](aulas/aula01/README.md)
-
-Conteúdos:
-
-- O que é programação
-- O que é algoritmo
-- Estrutura de um algoritmo
-  - entrada
-  - processamento
-  - saída
-- Fluxograma
-- Introdução ao Portugol
-- Primeiro algoritmo em Portugol
-- Tradução do algoritmo para C
-- Primeiro programa em C
+# Aula 1 — Introdução à Programação
+- **[🖥️ Slides (Conceitos)](aulas/aula01/slides.md)**
+- **[🏋️ Exercícios (Prática)](aulas/aula01/exercicios.md)**
 
 ---
 
-# [Aula 2 — Variáveis e Entrada de Dados](aulas/aula02/README.md)
-
-Conteúdos:
-
-- Estrutura básica de um programa em C
-- Tipos de variáveis
-  - int
-  - float
-  - char
-- Declaração de variáveis
-- Entrada de dados com `scanf`
-- Saída de dados com `printf`
-
-Exercícios:
-
-- ler nome e idade
-- calcular idade futura
-- converter metros para centímetros
+# Aula 2 — Variáveis e Entrada de Dados
+- **[🖥️ Slides (Conceitos)](aulas/aula02/slides.md)**
+- **[🏋️ Exercícios (Prática)](aulas/aula02/exercicios.md)**
 
 ---
 
-# [Aula 3 — Operadores e Cálculos](aulas/aula03/README.md)
-
-Conteúdos:
-
-- Operadores matemáticos
-  - +
-  - -
-  - *
-  - /
-  - %
-- Expressões matemáticas
-- Ordem das operações
-
-Exercícios:
-
-- calculadora simples
-- cálculo de média
-- cálculo de IMC
+# Aula 3 — Operadores e Cálculos
+- **[🖥️ Slides (Conceitos)](aulas/aula03/slides.md)**
+- **[🏋️ Exercícios (Prática)](aulas/aula03/exercicios.md)**
 
 ---
 
-# [Aula 4 — Estruturas Condicionais](aulas/aula04/README.md)
-
-Conteúdos:
-
-- Estrutura `if`
-- `if / else`
-- operadores relacionais
-  - >
-  - <
-  - >=
-  - <=
-  - ==
-  - !=
-
-Exercícios:
-
-- número par ou ímpar
-- aprovação de aluno
-- maior de três números
+# Aula 4 — Estruturas Condicionais
+- **[🖥️ Slides (Conceitos)](aulas/aula04/slides.md)**
+- **[🏋️ Exercícios (Prática)](aulas/aula04/exercicios.md)**
 
 ---
 
-# [Aula 5 — Estruturas de Repetição](aulas/aula05/README.md)
-
-Conteúdos:
-
-- loop `for`
-- loop `while`
-- controle de repetição
-
-Exercícios:
-
-- contar números
-- tabuada
-- soma de vários números
-- jogo de adivinhação
+# Aula 5 — Estruturas de Repetição
+- **[🖥️ Slides (Conceitos)](aulas/aula05/slides.md)**
+- **[🏋️ Exercícios (Prática)](aulas/aula05/exercicios.md)**
 
 ---
 
-# [Aula 6 — Vetores (Arrays)](aulas/aula06/README.md)
-
-Conteúdos:
-
-- conceito de vetor
-- declaração de vetor
-- acesso por índice
-- percorrer vetor com loop
-
-Exercícios:
-
-- armazenar vários números
-- calcular média de turma
-- encontrar maior número
+# Aula 6 — Vetores (Arrays)
+- **[🖥️ Slides (Conceitos)](aulas/aula06/slides.md)**
+- **[🏋️ Exercícios (Prática)](aulas/aula06/exercicios.md)**
 
 ---
 
-# [Aula 7 — Funções](aulas/aula07/README.md)
-
-Conteúdos:
-
-- conceito de função
-- criação de funções
-- parâmetros
-- retorno de valores
-
-Exercícios:
-
-- função de soma
-- função de média
-- função de verificação par/impar
+# Aula 7 — Funções
+- **[🖥️ Slides (Conceitos)](aulas/aula07/slides.md)**
+- **[🏋️ Exercícios (Prática)](aulas/aula07/exercicios.md)**
 
 ---
 
-# [Aula 8 — Projeto Final](aulas/aula08/README.md)
-
-Projeto:
-
-Sistema de **Almoxarifado em C (via terminal)**.
-
-Funcionalidades:
-
-- cadastrar item
-- listar itens
-- editar item
-- deletar item
-
-Conceitos utilizados:
-
-- structs
-- vetores
-- funções
-- busca em lista
-- menu interativo
+# Aula 8 — Projeto Final
+- **[🖥️ Slides (Conceitos)](aulas/aula08/slides.md)**
+- **[🏋️ Exercícios (Prática)](aulas/aula08/exercicios.md)**
 
 ---
 
