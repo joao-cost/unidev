@@ -8,7 +8,7 @@ Carga sugerida: **8 encontros**
 
 ---
 
-# Aula 1 — Introdução à Programação
+# [Aula 1 — Introdução à Programação](aulas/aula01/README.md)
 
 Conteúdos:
 
@@ -26,7 +26,7 @@ Conteúdos:
 
 ---
 
-# Aula 2 — Variáveis e Entrada de Dados
+# [Aula 2 — Variáveis e Entrada de Dados](aulas/aula02/README.md)
 
 Conteúdos:
 
@@ -47,7 +47,7 @@ Exercícios:
 
 ---
 
-# Aula 3 — Operadores e Cálculos
+# [Aula 3 — Operadores e Cálculos](aulas/aula03/README.md)
 
 Conteúdos:
 
@@ -68,7 +68,7 @@ Exercícios:
 
 ---
 
-# Aula 4 — Estruturas Condicionais
+# [Aula 4 — Estruturas Condicionais](aulas/aula04/README.md)
 
 Conteúdos:
 
@@ -90,7 +90,7 @@ Exercícios:
 
 ---
 
-# Aula 5 — Estruturas de Repetição
+# [Aula 5 — Estruturas de Repetição](aulas/aula05/README.md)
 
 Conteúdos:
 
@@ -107,7 +107,7 @@ Exercícios:
 
 ---
 
-# Aula 6 — Vetores (Arrays)
+# [Aula 6 — Vetores (Arrays)](aulas/aula06/README.md)
 
 Conteúdos:
 
@@ -124,7 +124,7 @@ Exercícios:
 
 ---
 
-# Aula 7 — Funções
+# [Aula 7 — Funções](aulas/aula07/README.md)
 
 Conteúdos:
 
@@ -141,7 +141,7 @@ Exercícios:
 
 ---
 
-# Aula 8 — Projeto Final
+# [Aula 8 — Projeto Final](aulas/aula08/README.md)
 
 Projeto:
 
