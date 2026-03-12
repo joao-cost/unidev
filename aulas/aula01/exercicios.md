@@ -1,13 +1,29 @@
-# 🏋️ Exercícios da Aula 1
+# 📓 Banco de Exercícios Extra - Aula 01
 
-### 🗺️ Fluxograma e Lógica
-1. **Lógica no Papel:** Tente desenhar um fluxograma para o processo de "Fazer um Café". Não esqueça da decisão: "O café está doce o suficiente?".
-2. **Decisão Simples:** Desenhe um fluxograma para um programa que lê a idade de uma pessoa e exibe "Maior de idade" ou "Menor de idade".
+Se você terminou os desafios dos slides ou ainda tem dúvidas sobre como a lógica funciona, tente resolver estes exercícios extras:
 
-### 📜 Portugol (Lógica de Código)
-3. **Soma Simples:** No **Portugol WebStudio**, crie um programa que tenha duas variáveis `A` e `B`, some os valores e mostre o resultado.
-4. **Interação:** Altere o programa anterior para que o computador pergunte os números ao usuário usando `leia(A)` e `leia(B)`.
+---
 
-### 💻 Linguagem C (Desafio)
-5. **Olá com seu Nome:** No seu [Dev-C++](../../programas/README.md), altere o código do "Olá Mundo" para exibir o seu nome.
-6. **Cálculo de Área:** Tente criar um programa em C que calcule a área de um quadrado (lado * lado).
+## 🗺️ Lógica e Fluxogramas (Extras)
+
+1. **Escovar os Dentes:** Desenhe um fluxograma para o processo de escovar os dentes. *Dica: Inclua a decisão "A escova está com pasta de dentes?" e "Meus dentes já estão limpos?".*
+
+2. **Trocar Lâmpada:** Desenhe um fluxograma para trocar uma lâmpada queimada. *Dica: Inclua o teste "A lâmpada nova acendeu?".*
+
+---
+
+## 📜 Portugol (Extras)
+
+3. **Calculadora Interestelar:** No Portugol WebStudio, peça um número e exiba o dobro e o triplo dele.
+
+4. **Verificador de Acesso:** Peça a idade do usuário. Se for maior ou igual a 18, escreva "Acesso Permitido". Caso contrário, escreva "Acesso Negado".
+
+---
+
+## 💻 Linguagem C (Extras)
+
+5. **Conversor de Temperatura:** Crie um programa em C que receba uma temperatura em Celsius e mostre o valor convertido em Fahrenheit.
+   *Fórmula: F = (C * 1.8) + 32*
+
+6. **Área do Círculo:** Peça o raio de um círculo e mostre sua área.
+   *Fórmula: Area = 3.14 * raio * raio*
