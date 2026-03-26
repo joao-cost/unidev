@@ -14,31 +14,31 @@ Carga sugerida: **8 encontros**
 
 ---
 
-# Aula 2 — Variáveis e Entrada de Dados
+# Aula 2 — Variáveis, Entrada de Dados e Condicionais (IF/ELSE)
 - **[🖥️ Slides (Conceitos)](aulas/aula02/slides.md)**
 - **[🏋️ Exercícios (Prática)](aulas/aula02/exercicios.md)**
 
 ---
 
-# Aula 3 — Operadores e Cálculos
+# Aula 3 — Operadores Lógicos e Estrutura Switch-Case
 - **[🖥️ Slides (Conceitos)](aulas/aula03/slides.md)**
 - **[🏋️ Exercícios (Prática)](aulas/aula03/exercicios.md)**
 
 ---
 
-# Aula 4 — Estruturas Condicionais
+# Aula 4 — Estruturas de Repetição (While e For)
 - **[🖥️ Slides (Conceitos)](aulas/aula04/slides.md)**
 - **[🏋️ Exercícios (Prática)](aulas/aula04/exercicios.md)**
 
 ---
 
-# Aula 5 — Estruturas de Repetição
+# Aula 5 — Vetores (Arrays) e Strings
 - **[🖥️ Slides (Conceitos)](aulas/aula05/slides.md)**
 - **[🏋️ Exercícios (Prática)](aulas/aula05/exercicios.md)**
 
 ---
 
-# Aula 6 — Vetores (Arrays)
+# Aula 6 — Matrizes (Arrays Bidimensionais)
 - **[🖥️ Slides (Conceitos)](aulas/aula06/slides.md)**
 - **[🏋️ Exercícios (Prática)](aulas/aula06/exercicios.md)**
 
