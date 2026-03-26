@@ -1,8 +1,9 @@
 # Aula 3 — Bibliotecas, Operadores e Switch-Case 📚🔀
 
 ## 📦 O que são Bibliotecas Iniciais (Includes)?
-No C, usamos `#include` no início do arquivo para trazer "caixas de ferramentas" prontas para usar.
-*   **`<stdio.h>`**: (Standard Input/Output) Traz o `printf` (para saída) e o `scanf` (para entrada).
+No C/C++, usamos `#include` no início do arquivo para trazer "caixas de ferramentas" prontas para usar.
+*   **`<iostream>`**: Biblioteca principal de fluxos de Entrada e Saída (Input/Output Stream), base fortíssima do C++.
+*   **`<stdio.h>`**: (Standard Input/Output) Traz o `printf` (para saída) e o `scanf` (para entrada) no C.
 *   **`<stdlib.h>`**: (Standard Library) Permite usar funções úteis do sistema operativo.
 *   **`<locale.h>`**: Configura idioma e região (localização). Excelente para problemas de acentuação!
 
