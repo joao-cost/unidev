@@ -36,6 +36,7 @@ Se você quer aprender, trocar conhecimentos e crescer na área de desenvolvimen
 
 ### Oficina de carreira
 - [Currículo para uma vaga real — slides em HTML (26/11/2026)](aulas/carreira/aula-curriculo.html)
+- [Primeiro post no LinkedIn — slides e sorteador (27/11/2026)](aulas/carreira/unidev-linkedin.html)
 
 ---
 
