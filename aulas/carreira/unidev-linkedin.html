@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UNIDEV · Primeiro post no LinkedIn</title>
+<style>
+:root{color-scheme:dark;--accent:#d8fa72;--ink:#f1f5f9;--muted:#bfd1e1;--bg:#101b2b;--panel:#1e2d42}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:clamp(16px,1.55vw,23px)/1.38 system-ui,sans-serif}main,nav{width:min(92vw,1250px);margin:auto}main{min-height:calc(100svh - 65px);display:grid;align-items:center}section{padding:22px 0}h1,h2,p{margin:0 0 12px}h1,h2{line-height:1.05;letter-spacing:-.04em}h1{font-size:clamp(45px,8vw,110px);max-width:13ch}h2{font-size:clamp(33px,5vw,65px)}h3{margin:0 0 8px;font-size:1.05em}strong,.accent,h3{color:var(--accent)}.tag{font-size:.75em;letter-spacing:.13em;font-weight:800;color:var(--accent);margin-bottom:20px}.lead{color:var(--muted);max-width:57ch}.grid{display:grid;grid-template-columns:1fr 1.25fr;gap:14px;margin:14px 0}.panel,fieldset{border:0;border-radius:12px;background:var(--panel);padding:14px 18px;margin:0;min-width:0}.panel ul{padding-left:1.12em;margin:0}.panel li+li{margin-top:5px}.deadline{border-left:4px solid var(--accent);padding-left:12px}.small{color:var(--muted);font-size:.87em}textarea{display:block;width:100%;margin-top:7px;min-height:125px;resize:vertical;background:#101b2b;color:var(--ink);border:1px solid #8093aa;border-radius:7px;padding:9px;font:inherit;font-size:.86em}fieldset legend{float:left;width:100%;font-weight:750;margin-bottom:5px}fieldset label{display:block;font-size:.89em;margin:5px 0}input[type=checkbox]{accent-color:var(--accent);width:1em;height:1em}button{font:inherit;color:var(--ink);background:var(--panel);border:1px solid #8192a8;border-radius:8px;padding:6px 12px;cursor:pointer}button:disabled{opacity:.4;cursor:default}button:focus-visible,textarea:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:2px}.draw{background:var(--accent);color:#162312;font-weight:790;border-color:var(--accent)}.actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}#message{margin:0}#results{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:8px;margin-top:12px}#results:empty{display:none}#results .panel{overflow-wrap:anywhere;font-size:.82em}#results p{margin:0}nav{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #526177;padding:9px 0 13px;font-size:.76em}.controls{display:flex;gap:6px}[hidden]{display:none!important}
+@media(max-width:700px){.grid{grid-template-columns:1fr}main{min-height:0}nav{position:sticky;bottom:0;background:var(--bg)}}
+</style>
+</head>
+<body>
+<main>
+<section aria-labelledby="cover">
+<p class="tag">UNIDEV / FOCCO · <time datetime="2026-11-27">27 NOV 2026</time></p>
+<h1 id="cover">Primeiro post no <span class="accent">LinkedIn</span></h1>
+<p class="lead">Atualizar o perfil e mostrar um mini projeto funcionando. Conta o que tu implementaste, qual stack usaste e o que ficou legal no resultado.</p>
+</section>
+<section aria-labelledby="requirements" hidden>
+<h2 id="requirements">O que vamos conferir juntos</h2>
+<div class="grid">
+<div class="panel"><h3>Perfil atualizado</h3><ul>
+<li>Foto de perfil nítida e atual.</li><li>Capa que combine com tua área ou teus interesses.</li><li>Título com teu curso ou área de atuação ou interesse.</li><li>Seção <b>Sobre</b> (bio) com uma breve apresentação.</li>
+</ul></div>
+<div class="panel"><h3>Post publicado no feed</h3><ul>
+<li>Foto ou print do mini projeto funcionando.</li><li>Texto curto sobre o que tu implementaste e o que a ferramenta faz.</li><li>Stack usada e pra que serviu cada tecnologia.</li><li>Um detalhe da implementação que tu achaste legal.</li>
+</ul></div>
+</div>
+<p class="deadline"><strong>Quarta, 02/12 · Último encontro da célula</strong><br>Publica até o encontro. Cada pessoa compartilha o perfil, o post e o projeto funcionando. A gente confere em grupo e troca sugestões.</p>
+</section>
+<section aria-labelledby="draw-title" hidden>
+<h2 id="draw-title">Sorteador de mini projetos</h2>
+<form id="draw-form">
+<div class="grid">
+<div class="panel"><label for="people"><strong>Participantes</strong></label><textarea id="people" rows="5" placeholder="Ana&#10;Bruno&#10;Carla"></textarea><p class="small">Um nome por linha.</p></div>
+<fieldset><legend>Temas do sorteio</legend>
+<label><input type="checkbox" checked value="Calculadora de média"> Calculadora de média</label>
+<label><input type="checkbox" checked value="Conversor de temperatura"> Conversor de temperatura</label>
+<label><input type="checkbox" checked value="Divisor de conta"> Divisor de conta</label>
+<label><input type="checkbox" checked value="Sorteador de grupos"> Sorteador de grupos</label>
+<label><input type="checkbox" checked value="Gerador de senhas"> Gerador de senhas</label>
+</fieldset>
+</div>
+<div class="actions"><button class="draw" type="submit">Sortear</button><span id="message" class="small" role="status"></span></div>
+<div id="results" aria-label="Resultado do sorteio"></div>
+</form>
+</section>
+</main>
+<nav aria-label="Navegação dos slides"><span id="page" aria-live="polite"></span><div class="controls"><button id="prev" type="button" aria-label="Slide anterior">←</button><button id="next" type="button" aria-label="Próximo slide">→</button></div></nav>
+<script>
+const slides = Array.from(document.querySelectorAll('main > section'));
+const prev = document.querySelector('#prev');
+const next = document.querySelector('#next');
+let current = 0;
+function show(index) {
+  current = Math.max(0, Math.min(index, slides.length - 1));
+  slides.forEach((slide, i) => { slide.hidden = i !== current; });
+  prev.disabled = current === 0;
+  next.disabled = current === slides.length - 1;
+  document.querySelector('#page').textContent = (current + 1) + ' / ' + slides.length + ' · Setas para navegar';
+}
+prev.addEventListener('click', () => show(current - 1));
+next.addEventListener('click', () => show(current + 1));
+document.addEventListener('keydown', event => {
+  if (event.altKey || event.ctrlKey || event.metaKey || event.target.matches('textarea,input,select,[contenteditable]')) return;
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+    event.preventDefault();
+    show(current + (event.key === 'ArrowRight' ? 1 : -1));
+  }
+});
+function shuffle(items) {
+  const shuffled = [...items];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+function assign(people, themes) {
+  const groups = shuffle(themes).slice(0, people.length).map(theme => ({theme, members: []}));
+  shuffle(people).forEach((person, i) => groups[i % groups.length].members.push(person));
+  return groups;
+}
+const form = document.querySelector('#draw-form');
+const results = document.querySelector('#results');
+const message = document.querySelector('#message');
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  const people = document.querySelector('#people').value.split(/\r?\n/).map(name => name.trim()).filter(Boolean);
+  const themes = Array.from(form.querySelectorAll('input:checked'), input => input.value);
+  results.replaceChildren();
+  if (!people.length || !themes.length) {
+    message.textContent = !people.length ? 'Cola pelo menos um nome.' : 'Marca pelo menos um tema.';
+    return;
+  }
+  const groups = assign(people, themes);
+  for (const {theme, members} of groups) {
+    const card = document.createElement('div');
+    const title = document.createElement('h3');
+    const names = document.createElement('p');
+    card.className = 'panel';
+    title.textContent = theme;
+    names.textContent = members.join(' · ');
+    card.append(title, names);
+    results.append(card);
+  }
+  message.textContent = people.length > groups.length ? groups.length + ' grupo(s) · ' + people.length + ' participantes' : groups.length + ' tema(s) individual(is)';
+});
+show(0);
+</script>
+</body>
+</html>
